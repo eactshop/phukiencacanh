@@ -1,7 +1,3 @@
-/* Vị trí
-   Kích Thước
-   màu sắc
-   kiểu dáng */
 .header{
     height: 44px;
     height: 144px;
@@ -67,6 +63,7 @@
 
 .logo__img{
     height: 100px;
+    border-radius: 51px;
 }
 
 .header__2-text{
@@ -113,31 +110,9 @@
     color: #FF5440;
 }
 
-/* .gioithieu{
-    width: 300px;
-    height: 150px;
-    background-color: #c4c3c2;
-    color: #333;
-    border-radius: 3px;
-    display: none;
-} */
-
-/* .header__nav-item-2:hover .gioithieu{
-    display: block;
-} */
-
-.gioithieu-tab{
-    cursor: default;
-}
-
-.gioithieu-info{
-    line-height: 50px;
-    padding: 0 10px;
-    font-size: 18px;
-}
-
 .slide{
     height: 600px;
+    z-index: 1;
 }
 
 .anhca{
