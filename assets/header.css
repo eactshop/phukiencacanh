@@ -1,0 +1,146 @@
+/* Vị trí
+   Kích Thước
+   màu sắc
+   kiểu dáng */
+.header{
+    height: 44px;
+    height: 144px;
+    background-color: rgb(39 26 27);
+}
+
+
+.header__1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__1 li{
+    list-style: none;
+    color: rgb(108 100 101);
+    display: flex;
+    cursor: default;
+}
+
+.header__1 li a{
+    color: rgb(108 100 101);
+    line-height: 44px;
+    text-decoration: none;
+    padding: 0 60px;
+    display: block;
+}
+
+.header__1 li a:hover{
+    color: #d2473d;
+}
+.icon {
+    display: flex;
+    color: rgb(108 100 101);
+    line-height: 44px;
+    text-decoration: none;
+    padding: 0 60px;
+}
+
+.icon i{
+    line-height: 44px;
+    padding-right: 4px;
+}
+
+.header__1 li i{
+    line-height: 44px;
+}
+
+/* Header 2 */
+.header3{
+    display: none;
+}
+.header2{
+    height: 100px;
+    background-color: #302021;
+    display: flex;
+    justify-content:space-between;
+    padding: 0 130px;
+}
+
+.logo{
+    
+}
+
+.logo__img{
+    height: 100px;
+}
+
+.header__2-text{
+    color: #e3e1e1;
+    line-height: 95px;
+    display: block;
+    cursor: default;
+}
+
+.header__nav{
+    height: 55px;
+    background-color: #ffca44;
+    border-bottom: 2px solid #cfa437;
+    border-top: 2px solid #cfa437;
+}
+
+.header__nav-item{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 40px;
+}
+
+.header__nav-item li{
+    list-style: none;
+    
+}
+
+.header__nav-item li a{
+    line-height: 55px;
+    text-decoration: none;
+    display: block;
+}
+
+.header__nav-item-1{
+    color: #FF5440;
+    font-weight: 500;
+}
+
+.header__nav-item-2{
+    color: #594129;
+}
+
+.header__nav-item-2:hover{
+    color: #FF5440;
+}
+
+/* .gioithieu{
+    width: 300px;
+    height: 150px;
+    background-color: #c4c3c2;
+    color: #333;
+    border-radius: 3px;
+    display: none;
+} */
+
+/* .header__nav-item-2:hover .gioithieu{
+    display: block;
+} */
+
+.gioithieu-tab{
+    cursor: default;
+}
+
+.gioithieu-info{
+    line-height: 50px;
+    padding: 0 10px;
+    font-size: 18px;
+}
+
+.slide{
+    height: 600px;
+}
+
+.anhca{
+    width: 100%;
+    height: 100%;
+}
